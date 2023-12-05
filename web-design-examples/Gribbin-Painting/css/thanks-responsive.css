@@ -1,0 +1,79 @@
+@media (min-width: 450px){
+
+.message-confirmation h1{
+	font-size: 55px;
+}
+
+.message-confirmation p{
+	font-size: 47px;
+}
+
+}
+
+
+@media (min-width: 650px){
+
+.message-confirmation h1{
+	font-size: 65px;
+}
+
+.message-confirmation p{
+	font-size: 52px;
+}
+
+}
+
+
+@media (min-width: 850px){
+
+.message-confirmation h1{
+	font-size: 75px;
+}
+
+.message-confirmation p{
+	font-size: 62px;
+}
+
+}
+
+
+
+@media (min-width: 1050px){
+
+.message-confirmation h1{
+	font-size: 85px;
+}
+
+.message-confirmation p{
+	font-size: 72px;
+}
+
+}
+
+
+
+@media (min-width: 1250px){
+
+.message-confirmation h1{
+	font-size: 85px;
+}
+
+.message-confirmation p{
+	font-size: 72px;
+}
+
+}
+
+
+
+@media (min-width: 1450px){
+
+.message-confirmation h1{
+	font-size: 85px;
+}
+
+.message-confirmation p{
+	font-size: 72px;
+}
+
+}

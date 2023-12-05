@@ -1,0 +1,289 @@
+.home-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.slideshow{
+	width: 95%;
+}
+
+.slideshow a{
+	width: 100%;
+}
+
+.slideshow a img{
+	width: 100%;
+}
+
+h1{
+	line-height: 1.1;
+	margin: 20px 0;
+	width: 90%;
+	font-family: 'Carter One', serif;
+	font-size: 1.3em;
+	letter-spacing: -0.7px;
+	line-height: 1.3;
+}
+
+.kevin-intro-text{
+	width: 90%;
+	margin: 0 15px;
+	font-size: 1.6em;
+	text-shadow: 2px 2px 3px grey;
+	line-height: 1.4;
+}
+
+#first-name-logo{
+	width: 90%;
+	max-width: 325px;
+	margin: 20px 0;
+}
+
+.home-section-one{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-family: 'Slabo 27px', serif;
+}
+
+.kevin-main-pic-container{
+	width: 100%;
+	max-width: 380px;
+	order: 1;
+}
+
+.kevin-main-pic{
+	width: 100%;
+	max-width: 290px;
+}
+
+.home-section-one-text{
+	order: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-section-one-text p{
+	margin: 15px 0 0;
+	width: 95%;
+	max-width: 600px;
+	font-size: 1.1em;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.home-section-one-text p a{
+	text-decoration: none;
+	color: red;
+	font-size: 1.1em;
+	letter-spacing: 2.5px;
+}
+
+.home-section-two-container{
+	width: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.home-section-two{
+	width: 100%;
+	max-width: 1000px;
+	font-family: 'Slabo 27px', serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.home-section-two-part-one, .home-section-two-part-two{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-section-two-part-one{
+	justify-content: space-between;
+
+}
+
+.home-section-two-part-two{
+	justify-content: center;
+
+}
+
+.home-section-two h2{
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 2em;
+	font-family: 'Carter One', serif;
+	text-shadow: 4px 4px 4px grey;
+}
+
+.home-section-two p{
+	margin-top: 15px;
+	width: 90%;
+	max-width: 480px;
+	font-size: 1.1em;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.home-section-two span{
+	font-size: 1.2em;
+}
+
+.accolades{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.accolades h2{
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 480px;
+	font-size: 2em;
+	font-family: 'Carter One', serif;
+	text-shadow: 4px 4px 4px grey;
+}
+
+.accolades p{
+	font-family: 'Slabo 27px', serif;
+	margin-top: 15px;
+	width: 90%;
+	font-size: 1.1em;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.accolades span{
+	font-size: 1.1em;
+}
+
+.contact{
+	width: 100%;
+}
+
+.contact, .contact-info, .contact-form form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-info{
+	width: 100%;
+}
+
+.contact-info h1{
+	margin-bottom: 20px;
+	max-width: 480px;
+	font-size: 2em;
+	font-family: 'Carter One', serif;
+	text-shadow: 4px 4px 4px grey;
+}
+
+.contact-info p{
+	width: 95%;
+	font-size: 1.2em;
+	line-height: 1.1;
+	font-family: 'Slabo 27px', serif;
+}
+
+.contact-info img{
+	margin: 20px 0 10px;
+	width: 90%;
+	max-width: 400px;
+}
+
+.contact-info a{
+	font-size: 1.1em;
+	line-height: 1.2;
+	color: black;
+	font-family: 'Slabo 27px', serif;
+	text-decoration: none;
+}
+
+.contact-form{
+	margin-top: 15px;
+	width: 96%;
+	max-width: 400px;
+}
+
+.contact-form label{
+	margin: 5px 0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.1em;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea, .contact-form option{
+	padding: 4px;
+	width: 95%;
+	height: 35px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1em;
+}
+
+.contact-form textarea{
+	height: 100px;
+}
+
+.contact-form button{
+	width: 120px;
+	height: 50px;
+	margin: 10px 0 25px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+	border-radius: 5%;
+}
+
+
+/***end css***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

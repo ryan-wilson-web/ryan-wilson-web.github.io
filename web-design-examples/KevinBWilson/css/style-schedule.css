@@ -1,0 +1,36 @@
+#schedule-content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#schedule-h1, #schedule-h2{
+	text-align: center;
+}
+
+#schedule-h1{
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+	margin: 0 0 15px;
+}
+
+#schedule-h2{
+	width: 90%;
+	font-family: 'Slabo 27px', serif;
+	line-height: 1.2;
+	margin: 0 0 20px;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+}
+
+.google-calendar{
+	max-width: 600px;
+	width: 95%;
+	margin-bottom: 20px;
+}
+
+#schedule-content iframe{
+	margin: 0 auto;
+}

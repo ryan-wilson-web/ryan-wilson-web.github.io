@@ -1,0 +1,69 @@
+.bridgeiq-content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}	
+
+.bridgeiq-text-one{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.bridgeiq-text-one p{
+	margin: 0 10px;
+	width: 90%;
+	max-width: 300px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+
+.bridgeiq-content h1{
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+	margin-bottom: 5px;
+}
+
+.bridgeiq-content h2{
+	width: 90%;
+	margin: 15px 0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
+	line-height: 1.1;
+}
+
+.bridgeiq-about-list{
+	width: 90%;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.bridgeiq-about-list h1{
+	margin: 0 0 25px;
+}
+
+.bridgeiq-about-list p{
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
+	margin: 5px 0;
+	line-height: 1.1;
+}
+
+.bridgeiq-about-list h2{
+	margin: 20px 0;
+	letter-spacing: 1px;
+}
+
+.bridgeiq-about-list h2 a{
+	text-decoration: none;
+	color: red;
+}

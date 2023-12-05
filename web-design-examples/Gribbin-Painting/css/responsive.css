@@ -1,0 +1,443 @@
+@media (min-width: 350px){
+	
+#MHIC{
+	font-size:22px;
+}
+
+#license{
+	font-size:20px;
+}
+
+.slogan-box h1{
+	font-size: 29px;
+}
+
+.services-header h1{
+	font-size: 39px;
+}
+
+.pro-services-header h1{
+	font-size: 26px;
+}
+
+.free-estimate h1{
+	font-size: 29px;
+}
+
+.contact-form h1{
+	font-size: 50px;
+}
+
+}
+
+
+@media (min-width: 450px){
+
+.services-header h1{
+	font-size: 43px;
+}
+
+.phone-box{
+	padding: 25px 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.phone-icon-box{
+	margin-left: -40px;
+}
+
+.phone-number-box{
+	display: flex;
+	justify-content: center;
+	width: 230px;
+}
+
+.phone-number-box p{
+	font-size: 28px;
+	margin-top: -15px;
+}
+
+.contact-form h1{
+	font-size: 52px;
+}
+
+}
+
+
+@media (min-width: 550px){
+	
+#MHIC{
+	font-size:25px;
+}
+
+#license{
+	font-size:23px;
+}
+
+.slogan-box h1{
+	font-size: 33px;
+}
+
+.services-header h1{
+	font-size: 47px;
+}
+
+.pro-services-header h1{
+	font-size: 28px;
+}
+
+.free-estimate h1{
+	font-size: 31px;
+}
+
+.phone-number-box p{
+	font-size: 30px;
+}
+
+.contact-form h1{
+	font-size: 54px;
+}
+
+.footer-nav{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 13px;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer-nav a{
+	margin: 0 25px;
+}	
+
+}
+
+
+@media (min-width: 650px){
+	
+#mobile-nav-button, .mobile-nav{
+	display: none;
+}
+
+.desktop-nav{
+	display: flex;
+	width: 400px;
+	justify-content: center;
+}
+
+.desktop-nav li{
+	margin: 11px;
+}
+
+.desktop-nav a{
+	font-family: Meri-Bold;
+	font-size: 21px;
+	text-align: center;
+	color: #892b15/**red**/;
+	text-decoration: none;
+	margin: 0 13px;
+}	
+
+#services-drop-one{
+	z-index: 100;
+	display: none;
+	text-align: center;
+	top: 80px;
+	right: 107px;
+	position: absolute;
+	width: 450px;
+	background: linear-gradient(to left, #fcf0be, white);
+}
+
+#services-drop-one ul, #services-drop-one li, #services-drop-one a{
+	margin: 0;
+}
+
+#services-drop-one li{
+	padding: 5px 0;
+}
+
+#services-drop-one li:hover{
+	opacity: .8;
+}
+
+.services-header h1{
+	font-size: 51px;
+}
+
+}
+
+
+@media (min-width: 750px){
+
+.desktop-nav{
+	margin-right: 20px;
+}
+	
+.desktop-nav a{
+	font-size: 23px;
+	margin: 0 14px;
+}	
+
+#MHIC{
+	font-size:28px;
+}
+
+#license{
+	font-size:26px;
+}
+
+.slogan-box h1{
+	font-size: 37px;
+	margin: 20px 0;
+}
+
+.about-box{
+	justify-content: space-around;
+	max-width: 800px;
+	align-items: center;
+}
+	
+.tim-box{
+	width: 50%;
+}
+
+.about-text{
+	width: 50%;
+}
+
+.about-text p{
+	font-size: 19px;
+}
+
+.pro-services-header h1{
+	font-size: 30px;
+}
+
+.free-estimate h1{
+	font-size: 33px;
+}
+
+.phone-number-box{
+	width: 290px;
+}
+
+.phone-number-box p{
+	font-size: 32px;
+}
+
+.contact-form{
+	margin: 40px 0;
+}
+
+.contact-form h1{
+	margin-top: 25px;
+	font-size: 60px;
+}
+
+.form-section-one, .form-section-two{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.responsive-form-container{
+	width: 100%;
+	max-width: 800px;
+	justify-content: space-between;
+}
+
+.contact-gribbin button{
+	margin: 25px 0 10px;
+}
+
+}
+
+
+
+@media (min-width: 850px){
+	
+.services-header h1{
+	margin-top: 20px;
+	font-size: 53px;
+}
+
+	
+}
+
+
+
+@media (min-width: 950px){
+
+.desktop-nav{
+	margin-right: 40px;
+}
+	
+.desktop-nav a{
+	font-size: 25px;
+	margin: 0 20px;
+}	
+	
+#MHIC{
+	font-size:31px;
+}
+
+#license{
+	font-size:29px;
+}
+	
+.slogan-box h1{
+	font-size: 41px;
+	margin: 25px 0;
+}
+
+.pro-services-header h1{
+	margin: 10px 0;
+	font-size: 36px;
+}
+
+.free-estimate h1{
+	margin: 20px 0;
+	font-size: 38px;
+}
+
+.phone-icon-box{
+	max-width: 180px;
+}
+
+.phone-number-box p{
+	font-size: 35px;
+}
+
+.contact-form h1{
+	font-size: 65px;
+}
+
+}
+
+
+@media (min-width: 1050px){
+
+.about-box{
+	max-width: 1000px;
+}
+
+.tim-box{
+	max-width: 400px;
+}
+
+.about-text p{
+	font-size: 21px;
+}
+
+.services-header h1{
+	font-size: 63px;
+}
+
+
+}
+
+@media (min-width: 1150px){
+
+.desktop-nav{
+	margin-right: 85px;
+}
+	
+.desktop-nav a{
+	font-size: 27px;
+	margin: 0 23px;
+}	
+
+#MHIC{
+	font-size: 34px;
+}
+
+#license{
+	font-size: 32px;
+}
+	
+.slogan-box h1{
+	font-size: 45px;
+}
+
+.contact-form h1{
+	font-size: 70px;
+}
+
+}
+
+
+@media (min-width: 1250px){
+
+.desktop-nav{
+	margin-right: 115px;
+}
+	
+.desktop-nav a{
+	font-size: 29px;
+	margin: 0 25px;
+}
+
+.service-picture{
+	max-width: 400px;
+}
+
+.pro-services-header h1{
+	margin: 10px 0;
+}
+
+}
+
+@media (min-width: 1350px){
+	
+.desktop-nav{
+	margin-right: 135px;
+}
+
+#MHIC{
+	font-size: 37px;
+}
+
+#license{
+	font-size: 35px;
+}
+
+.slogan-box h1{
+	font-size: 49px;
+}
+	
+.contact-form h1{
+	font-size: 75px;
+}
+
+}
+
+
+@media (min-width: 1450px){
+
+.service-picture{
+	max-width: 450px;
+}
+
+}
+
+
+@media (min-width: 1550px){
+	
+#MHIC{
+	font-size: 40px;
+}
+
+#license{
+	font-size: 38px;
+}
+
+.slogan-box h1{
+	font-size: 53px;
+}
+	
+}

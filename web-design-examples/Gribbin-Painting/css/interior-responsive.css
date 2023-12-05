@@ -1,0 +1,176 @@
+@media (min-width:600px){
+
+.page-header h1{
+	padding: 20px 0;
+	font-size: 32px;
+}
+
+.main-headline h1{
+	font-size: 30px;
+}
+
+.before-box, .after-box{
+	width: 80%;
+	max-width: 650px;
+	margin: 8px 25px;
+}
+
+.before-box h2, .after-box h2{
+	font-size: 36px;
+}
+
+.service-graphic a img{
+	max-width: 460px;
+	margin-left: 25px;
+}
+
+.service-info h1{
+	font-size: 32px;
+}
+
+.lightbox-header h1{
+	font-size: 27px;
+}
+
+.lightbox-info h1{
+	font-size: 19px;
+}
+
+}
+
+
+
+@media (min-width:900px){
+
+.page-header h1{
+	padding: 20px 0;
+	font-size: 36px;
+}
+
+.main-headline h1{
+	margin: 20px 0;
+	font-size: 36px;
+}
+
+.before-box, .after-box{
+	margin: 10px 35px;
+}
+
+.before-box h2, .after-box h2{
+	margin-top: 5px;
+	font-size: 38px;
+}
+
+.service-info h1{
+	width: 80%;
+	font-size: 37px;
+}
+
+.lightbox-header h1{
+	font-size: 29px;
+}
+
+.lightbox-info h1{
+	font-size: 21px;
+}
+
+}
+
+
+
+@media (min-width:1100px){
+
+.page-header h1{
+	width: 80%;
+	padding: 20px 0;
+	font-size: 40px;
+}
+
+.main-headline h1{
+	font-size: 36px;
+}
+
+.before-box, .after-box{
+	margin: 10px 45px;
+}
+
+.before-box h2, .after-box h2{
+	margin-top: 5px;
+	font-size: 39px;
+}
+
+.service-info h1{
+	width: 70%;
+	font-size: 40px;
+}
+
+.lightbox-header h1{
+	font-size: 32px;
+}
+
+.lightbox-info h1{
+	font-size: 23px;
+}
+
+.lightbox-cont{
+	padding: 25px 0;
+	width: 80%;
+}
+
+.lightbox-cont a{
+	width: 130px;
+	height: 100%;
+	margin: 10px 10px;
+}
+
+.lightbox-cont a.landscape{
+	width: 210px;
+}
+
+}
+
+
+
+@media (min-width:1500px){
+
+.page-header h1{
+	padding: 20px 0;
+	font-size: 44px;
+}
+
+.main-headline h1{
+	font-size: 39px;
+}
+
+.before-box, .after-box{
+	margin: 10px 45px;
+}
+
+.before-box h2, .after-box h2{
+	margin-top: 5px;
+	font-size: 40px;
+}
+
+.service-info h1{
+	font-size: 45px;
+}
+
+.lightbox-header h1{
+	font-size: 34px;
+}
+
+.lightbox-info h1{
+	font-size: 25px;
+}
+
+.lightbox-cont a{
+	width: 150px;
+	height: 100%;
+	margin: 10px 10px;
+}
+
+.lightbox-cont a.landscape{
+	width: 230px;
+}
+
+}
