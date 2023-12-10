@@ -171,12 +171,19 @@ header #mobile-nav-button{
 	align-self: flex-start;
 }
 
-#main-content #greeting-container p{
+#main-content #greeting-container p, 
+#main-content #greeting-container a{
 	width: 90%;
 	font-size: 24px;
 	line-height: 1.4;
 	font-family: 'Roboto Flex', sans-serif;
+	text-decoration: none;
 }
+
+#main-content #greeting-container a span{
+	color: black;
+}
+
 
 #main-content #greeting-container #icon-container{
 	width: 90%;
@@ -202,7 +209,8 @@ header #mobile-nav-button{
 		margin: 30px 0 20px 0;
 	}
 
-	#main-content #greeting-container p{
+	#main-content #greeting-container p,
+	#main-content #greeting-container a{
 		margin: 10px 0;
 		font-size: 25px;
 		line-height: 1.5;
@@ -216,7 +224,8 @@ header #mobile-nav-button{
 
 @media (min-width: 700px){
 
-	#main-content #greeting-container p{
+	#main-content #greeting-container p,
+	#main-content #greeting-container a{
 		margin: 15px 0;
 		font-size: 27px;
 		line-height: 1.5;
@@ -229,7 +238,8 @@ header #mobile-nav-button{
 }
 
 @media (min-width: 900px){
-	#main-content #greeting-container p{
+	#main-content #greeting-container p,
+	#main-content #greeting-container a{
 		font-size: 30px;
 	}
 
@@ -240,7 +250,8 @@ header #mobile-nav-button{
 
 @media (min-width: 1100px){
 
-	#main-content #greeting-container p{
+	#main-content #greeting-container p,
+	#main-content #greeting-container a{
 		font-size: 32px;
 	}
 	
@@ -251,7 +262,8 @@ header #mobile-nav-button{
 
 @media (min-width: 1300px){
 
-	#main-content #greeting-container p{
+	#main-content #greeting-container p,
+	#main-content #greeting-container a{
 		font-size: 34px;
 	}
 	#main-content #greeting-container #icon-container{
@@ -288,14 +300,34 @@ header #mobile-nav-button{
 	align-self: flex-start;
 }
 
-#main-content #portfolio-container #web-design-portfolio-container, #main-content #portfolio-container #adobe-illustrator-portfolio-container, #main-content #portfolio-container #adobe-photoshop-portfolio-container{
+#main-content #portfolio-container #web-design-portfolio-container,
+#main-content #portfolio-container #adobe-illustrator-portfolio-container, 
+#main-content #portfolio-container #adobe-photoshop-portfolio-container{
 	width: 95%;
 	max-width: 1300px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: row;
+	align-items: flex-start;
+}
+
+#main-content #portfolio-container #adobe-photoshop-portfolio-container{
+	margin-bottom: 60px;
+}
+
+#main-content #portfolio-container #web-design-portfolio-container a,
+#main-content #portfolio-container #adobe-illustrator-portfolio-container a, 
+#main-content #portfolio-container #adobe-photoshop-portfolio-container a{
+	width: 95%;
+	margin: 10px;
+	max-width: 450px;
+	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration: none;
 }
 
 #main-content #portfolio-container #web-design-portfolio-container img, #main-content #portfolio-container #adobe-illustrator-portfolio-container img, #main-content #portfolio-container #adobe-photoshop-portfolio-container img{
@@ -304,7 +336,17 @@ header #mobile-nav-button{
 	margin: 20px;
 }
 
+#main-content #portfolio-container #web-design-portfolio-container p,
+#main-content #portfolio-container #adobe-illustrator-portfolio-container p,
+#main-content #portfolio-container #adobe-photoshop-portfolio-container p{
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: black;
+}
+
 #main-content #portfolio-container #adobe-ill-text, #main-content #portfolio-container #adobe-photo-text{
+	margin: 30px 0;
 	max-width: 360px;
 }
 
